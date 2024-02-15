@@ -3,7 +3,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import axios from "axios";
 import Notiflix from 'notiflix';
-import { API_KEY } from './pixabayAPI';
+import { API_KEY } from './pixabayAPI.js';
 
 
 async function searchImages(query, page = 1) {
