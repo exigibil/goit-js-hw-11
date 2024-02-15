@@ -1,0 +1,84 @@
+
+
+
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 25px;
+    margin-top: 0;
+};
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #616161;
+    border-radius: 15px;
+};
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #2c70b9;
+    color: #fff;
+    text-decoration: double;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+};
+
+form.search-form {
+    background-color: #4253af;
+    padding-block: 1% 2%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.load-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0366fa;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #435ffd;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.photo-card {
+    border: 1px solid #cecbcb;
+    border-radius: 5px;
+    overflow: hidden;
+   
+   
+}
+
+.photo-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: all 150ms ease-in-out;
+}
+
+.photo-card img:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    padding: 10px;
+}
+
+.info-item {
+    padding: 2px 10px;
+}
